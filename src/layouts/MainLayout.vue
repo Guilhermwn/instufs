@@ -8,7 +8,7 @@ Referência: https://www.mff.cuni.cz/en
 
       <!-- Logo Principal -->
       <div v-show="$q.screen.gt.sm" class="q-pa-md flex flex-center bg-white">
-        <q-img src="src/assets/logo-nome-azul.png" width="300px" />
+        <q-img src="img/logo-nome-azul.png" width="300px" />
       </div>
 
       <q-toolbar class="justify-between">
@@ -16,7 +16,7 @@ Referência: https://www.mff.cuni.cz/en
         <q-btn v-if="$q.screen.lt.md" flat dense square icon="menu" @click="drawer = !drawer" />
 
         <div v-show="$q.screen.lt.md" class="q-pa-md full-width flex flex-center">
-          <q-img src="src/assets/logo-nome-branco.png" width="100px" />
+          <q-img src="img/logo-nome-branco.png" width="100px" />
         </div>
 
         <!-- Botões do menu (Somente em telas maiores) -->
@@ -89,7 +89,7 @@ Referência: https://www.mff.cuni.cz/en
             <q-tooltip anchor="top middle" self="bottom middle">GitHub</q-tooltip>
           </q-btn>
 
-          <q-btn flat dense round icon="img:src/assets/dgp.png" class="text-white"
+          <q-btn flat dense round icon="img:img/dgp.png" class="text-white"
             href="http://dgp.cnpq.br/dgp/espelhogrupo/0152555842375554" target="_blank">
             <q-tooltip anchor="top middle" self="bottom middle">Grupo de Pesquisa</q-tooltip>
           </q-btn>
