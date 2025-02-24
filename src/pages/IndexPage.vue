@@ -7,7 +7,7 @@
 
       <div class="image-container">
         <q-img
-          src="src/assets/logo-nome-azul.png"
+          src="img/logo-nome-azul.png"
           class="responsive-img"
           contain
         />
