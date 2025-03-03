@@ -1,4 +1,4 @@
-<!-- 
+<!--
 Referência: https://www.mff.cuni.cz/en
 -->
 
@@ -25,7 +25,7 @@ Referência: https://www.mff.cuni.cz/en
           <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">EII</q-btn>
           <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">PROCESSO SELETIVO</q-btn>
           <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">NOTÍCIAS</q-btn>
-          <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">MEMBROS</q-btn>
+          <q-btn flat dense to="/membros" class="q-pa-sm q-ma-sm toolbar-nav">MEMBROS</q-btn>
           <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">PROJETOS</q-btn>
           <q-btn flat dense to="/" class="q-pa-sm q-ma-sm toolbar-nav">PUBLICAÇÕES</q-btn>
         </div>
@@ -48,7 +48,7 @@ Referência: https://www.mff.cuni.cz/en
         <q-item clickable v-close-popup to="/">
           <q-item-section>NOTÍCIAS</q-item-section>
         </q-item>
-        <q-item clickable v-close-popup to="/">
+        <q-item clickable v-close-popup to="/membros">
           <q-item-section>MEMBROS</q-item-section>
         </q-item>
         <q-item clickable v-close-popup to="/">
